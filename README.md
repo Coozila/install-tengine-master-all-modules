@@ -3,24 +3,6 @@ compile-nginx-master-all-modules Centos 6.x
 
 This module compile latest nginx version and complementary modules on centos 6.x
 
-
-## Installation dependence
-
-    cd /usr/local/src
-    yum -y groupinstall "Development Tools"
-    yum -y install gcc gcc-c++ kernel-devel
-    yum -y install zlib-devel
-    yum -y install cpio
-    yum -y install expat-devel
-    yum -y install gettext-devel
-    yum -y install libxslt
-    yum -y install libxslt-devel
-    yum -y install gd gd-devel
-    yum -y install perl-ExtUtils-Embed
-    yum -y install openssl
-    yum -y install openssl-devel
-    yum -y install lua-devel
-    
     
 ## Download latest Pcre 8.34
 
